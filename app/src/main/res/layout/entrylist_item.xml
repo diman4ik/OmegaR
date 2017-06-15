@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingTop="6dip"
+    android:paddingBottom="6dip"
+    android:background="@drawable/listitem_background">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="16dip"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_image_black_24dp" />
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/image"
+        android:gravity="center_vertical"
+        android:text="Song"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:textAppearance="@style/itemTitleText" />
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/image"
+        android:layout_above="@id/title_text"
+        android:gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="Artist"
+        android:textAppearance="@style/itemContentText" />
+</RelativeLayout>

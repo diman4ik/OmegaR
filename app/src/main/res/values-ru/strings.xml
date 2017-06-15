@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OmegaRRSS</string>
+    <string name="error">Ошибка</string>
+    <string name="network_error">Отсутствует доступ к сети</string>
+    <string name="loading">Загрузка…</string>
+    <string name="no_result">Безрезультатно</string>
+
+    <string name="image">Изображение</string>
+    <string name="title_activity_settings">Url RSS потока</string>
+    <string name="pref_feedurl_label">Url RSS потока</string>
+    <string name="pref_feedurl_key" translatable="false">FeedUrl</string>
+    <string name="pref_feedurl_default" translatable="false">"http://www.economist.com/sections/economics/rss.xml</string>
+    <string name="settings">Настройки</string>
+    <string name="feed_not_found">Запрашиваемый поток не найден</string>
+</resources>

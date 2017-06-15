@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OmegaRRSS</string>
+    <string name="error">Error</string>
+    <string name="network_error">The network is not set up</string>
+    <string name="loading">Loading…</string>
+    <string name="no_result">No result</string>
+
+    <string name="image">Image</string>
+    <string name="title_activity_settings">RSS feed Url</string>
+    <string name="pref_feedurl_label">RSS feed Url</string>
+    <string name="pref_feedurl_key" translatable="false">FeedUrl</string>
+    <string name="pref_feedurl_default" translatable="false">"http://www.economist.com/sections/economics/rss.xml</string>
+    <string name="settings">Settings</string>
+    <string name="feed_not_found">Requested feed not found</string>
+</resources>
